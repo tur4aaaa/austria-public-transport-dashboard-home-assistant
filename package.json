@@ -1,0 +1,24 @@
+{
+  "name": "austria-public-transport-card",
+  "version": "0.1.0",
+  "description": "Departure board card for the austria-public-transport Home Assistant integration",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c --watch",
+    "typecheck": "tsc --noEmit"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "lit": "^3.3.3"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "@rollup/plugin-terser": "^1.0.2",
+    "@rollup/plugin-typescript": "^12.3.1",
+    "rollup": "^4.68.2",
+    "tslib": "^2.9.1",
+    "typescript": "^5.9.3"
+  }
+}
